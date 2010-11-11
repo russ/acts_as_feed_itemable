@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'test/unit'
 require 'active_record'
-require File.dirname(__FILE__) + '/../rails/init.rb'
+require File.dirname(__FILE__) + '/../init.rb'
 require 'models'
 
 def load_schema

@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(:version => 0) do
   create_table :waffles, :force => true do |t|
     t.integer   :user_id,     :null => false
     t.boolean   :tasty,       :null => false,   :default => false
-    t.name      :string
+    t.string    :name
     t.datetime  :created_at
     t.datetime  :updated_at
   end
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(:version => 0) do
   create_table :pancakes, :force => true do |t|
     t.integer   :user_id,     :null => false
     t.boolean   :tasty,       :null => false,   :default => false
-    t.name      :string
+    t.string    :name
     t.datetime  :created_at
     t.datetime  :updated_at
   end
