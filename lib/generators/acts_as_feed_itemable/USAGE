@@ -1,0 +1,5 @@
+Description:
+  Generates a migration for the feed items.
+
+Example:
+  rails generate acts_as_feed_itemable:install
