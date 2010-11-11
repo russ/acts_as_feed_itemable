@@ -17,7 +17,7 @@ module ActsAsFeedItemable
       end
 
       def add_migration
-        migration_template("migration.rb", "db/migrate/add_feed_items")
+        migration_template("migration.rb", "db/migrate/create_feed_items")
       end
     end
   end
